@@ -3,8 +3,8 @@ body {
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 
 .title {
@@ -23,4 +23,25 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+.title {
+  /* outline: 1px solid red; */
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.container-box {
+  /* outline: 1px solid red; */
+  width: 350px;
+  
+  text-align: center;
+}
+.text {
+  font-size: 30px;
 }
